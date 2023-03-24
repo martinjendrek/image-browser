@@ -64,7 +64,7 @@ my_label.grid(row=0, column=0, columnspan=3)
 cat_label = tk.Label(image=cat_image_list[img_index],width=photosize[0], height=photosize[1])
 cat_label.grid(row=1, column=0, columnspan=3)
 
-# Button block
+# Button definition
 button_back = tk.Button(root, text='<<<', command=lambda:back())
 button_quit = tk.Button(root, text='Exit Program', command= root.quit)
 button_forward = tk.Button(root, text='>>>', command=lambda:forward())
